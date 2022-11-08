@@ -16,7 +16,7 @@ const Divider2 = ({img}) => {
                         </ul>   
                         <p>Rest assured, you've come to the right company for web design and development, as we are currently designing and developing websites for businesses.</p>
                     </div>
-                    <img src={design4} className="col-md-6 mx-5" alt="solutions" style={{width: '450px', borderRadius: '50%'}}/>
+                    <img src={design4} className="col-md-6 mx-5 d-none d-lg-block" alt="solutions" style={{width: '450px', borderRadius: '50%'}}/>
                 </div>
             </div>
         </section>
