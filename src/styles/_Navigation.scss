@@ -1,0 +1,11 @@
+#logo {
+    width: 200px;
+}
+
+.nav-link {
+    &:hover {
+        color: #4fd1d9 !important;
+        font-weight: bold;
+        transition: all 0.2s ease-in-out;
+    }
+}

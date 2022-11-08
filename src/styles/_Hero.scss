@@ -1,0 +1,12 @@
+.btn-success {
+    background-color: #4fd1d9 !important;
+
+    &:hover {
+        opacity: 0.75;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+.text-success {
+    color:  #4fd1d9 !important;
+}

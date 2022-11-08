@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Navigation from './components/Navigation'
+import ParticlesConfig from './components/ParticlesConfig'
+import Hero from './components/Hero'
+import Divider from './components/Divider'
+import Divider2 from './components/Divider2'
+import Divider3 from './components/Divider3'
+import Services from './components/Services'
+import Testimonials from './components/Testimonials'
+import FreeTrial from './components/FreeTrial'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ParticlesConfig/>
+      <Navigation/>
+      <Hero/>
+      <Divider/>
+      <Divider2/>
+      <Divider3/>
+      <Services/>
+      <Testimonials/>
+      <FreeTrial/>
+      <Footer/>
     </div>
   );
 }

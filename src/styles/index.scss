@@ -1,0 +1,30 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/maps';
+@import '~bootstrap/scss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+.bg-custom {
+  background-color: #022658 !important;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+
+
+  h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+  }
+}
+
+@import 'Navigation';
+@import 'Hero';
+@import 'Services';
+@import 'Footer'
