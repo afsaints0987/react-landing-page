@@ -4,8 +4,8 @@ import Hero from './components/Hero'
 import Divider from './components/Divider'
 import Divider2 from './components/Divider2'
 import Divider3 from './components/Divider3'
+import Plan from './components/Plan'
 import Services from './components/Services'
-import Testimonials from './components/Testimonials'
 import FreeTrial from './components/FreeTrial'
 import Footer from './components/Footer'
 
@@ -19,7 +19,7 @@ function App() {
       <Divider2/>
       <Divider3/>
       <Services/>
-      <Testimonials/>
+      <Plan/>
       <FreeTrial/>
       <Footer/>
     </div>

@@ -1,17 +1,20 @@
-.shadow-sm {
-    &:hover {
-        background: #333;
-        color: #fff;
-        box-shadow: 0 1rem 3rem #333 !important;
-        transform: scale(1.15);
-        cursor: pointer;
-        transition: all 0.2s ease-in-out;
-    }
+#card {
+    min-height: 350px;
 
-    .list-unstyled {
-        li {
-            margin-bottom: 1rem;
-            font-size: 14px;
+    h4 {
+        font-weight: bold;
+    }
+}
+
+.swiper-container {
+    .swiper-slide {
+        &:hover {
+            color: #022658;
+            transition: all 0.2s ease-in-out;
         }
+    }
+    .swiper-pagination {
+        bottom: -5px !important;
+
     }
 }
