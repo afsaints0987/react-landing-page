@@ -14,7 +14,7 @@ const Services = () => {
         <div className="container my-4 service">
             <h2 className="text-center my-5 text-light">Our Web Design and Development Services</h2>
             <Swiper modules={[Pagination]}
-            spaceBetween={50}
+            spaceBetween={20}
                 slidesPerView={1}
                 breakpoints={{ 768: { width: 768, slidesPerView: 2 } }}
                 centeredSlides={true}

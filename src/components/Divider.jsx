@@ -18,7 +18,7 @@ const Divider = ({img}) => {
                         <h2 className="w-25">Project Management</h2>
                         <p>No matter how big your company is or how experienced the managers are, having a streamlined process is the only way for efficient project management. Efficiency is what we’re good at!</p>
                     </div>
-                    <img src={design2} alt="design-circles" className="col-md-6 design d-none d-lg-block img-fluid" style={{width: "500px"}}/>
+                    <img src={design2} alt="design-circles" className="col-md-6 design d-none d-lg-block img-fluid" style={{width: "450px"}}/>
                 </div>
                 
             </div>
