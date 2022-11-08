@@ -11,7 +11,7 @@ const Services = () => {
     const swiper = useSwiper();
 
     return (
-        <div className="container my-4">
+        <div className="container my-4 service">
             <h2 className="text-center my-5 text-light">Our Web Design and Development Services</h2>
             <Swiper modules={[Pagination]}
             spaceBetween={50}
