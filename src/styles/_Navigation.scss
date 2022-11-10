@@ -1,8 +1,14 @@
+.bg-custom {
+    background-color: #2F3842 !important;
+}
+
 #logo {
     width: 200px;
 }
 
 .nav-link {
+
+
     &:hover {
         color: #e3c493 !important;
         font-weight: bold;

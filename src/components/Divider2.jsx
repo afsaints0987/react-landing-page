@@ -1,8 +1,10 @@
 import design4 from '../assets/design_4.gif'
+import backgroundVideo from '../assets/background-video.mp4'
+import '../styles/_Divider.scss'
 
 const Divider2 = ({img}) => {
     return (
-        <section id="solutions"className="pt-5 bg-transparent text-light vh-100 d-flex align-items-center">
+        <section className="pt-5 bg-transparent text-light vh-100 d-flex align-items-center">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
@@ -16,7 +18,12 @@ const Divider2 = ({img}) => {
                         </ul>   
                         <p>Rest assured, you've come to the right company for web design and development, as we are currently designing and developing websites for businesses.</p>
                     </div>
-                    <img src={design4} className="col-md-6 mx-auto d-none d-lg-block" alt="solutions" style={{width: '450px', borderRadius: '50%'}}/>
+                    <img src={design4} alt="design4" className="col-md-6 design-4 d-none d-lg-block d-xl-none " style={{width: "450px"}}/>
+                    <div className="col-md-6 d-none d-xl-block vid-container">
+                        <video autoPlay loop muted id="video">
+                            <source src={backgroundVideo} type='video/mp4'/>
+                        </video>
+                    </div>
                 </div>
             </div>
         </section>

@@ -1,0 +1,24 @@
+.text-custom {
+    h2, p {
+        color: #2F3842;
+    }
+}
+
+ul {
+    color: #FAEBD9;
+}
+
+.design-4 {
+    border-radius: 50% !important;
+    opacity: 0.9;
+}
+
+.vid-container {
+    display: flex;
+    align-items: center;
+
+    #video {
+        width: 35rem;
+        height: 25rem;
+    }
+}

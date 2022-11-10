@@ -8,7 +8,7 @@ const Contact = ({img}) => {
                 <div className="d-flex flex-row-reverse">
                     <div className="col-md-6 align-self-center mx-auto">
                         <div className="text-sm-center text-lg-start mx-4">
-                            <h2 className="text-light">Send Us a Message</h2>
+                            <h2 className="header-text">Send Us a Message</h2>
                             <p>Contact us today and our friendly support team will reach out as soon as possible</p>
                         </div>
                         <form className="mt-2 mx-4">

@@ -1,6 +1,12 @@
 li, p {
     font-size: 14px;
 }
+small {
+    color: #FAEBD9;
+}
+h5, h6, .icon {
+    color: #FAEBD9;
+}
 
 a {
     text-decoration: none;
@@ -10,4 +16,8 @@ a {
         color: #e3c493;
         transition: color 0.2s ease-in-out;
     }
+}
+
+.footer-logo {
+    margin-left: 1rem;
 }
