@@ -3,7 +3,7 @@ import design1 from '../assets/design_1.gif'
 
 const Divider = ({img}) => {
     return (
-        <section id="solutions"className="bg-white text-dark mh-100 py-3">
+        <section id="solutions" className="bg-white text-dark mh-100 py-3">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 d-flex flex-column align-self-center">

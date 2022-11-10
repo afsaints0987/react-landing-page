@@ -27,7 +27,7 @@ const ParticlesConfig = () => {
                 },
                 background: {
                     color: {
-                        value: "#333",
+                        value: "#2F3842",
                     },
                 },
                 fpsLimit: 120,
@@ -74,7 +74,7 @@ const ParticlesConfig = () => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 2,
+                        speed: 1,
                         straight: false,
                     },
                     number: {

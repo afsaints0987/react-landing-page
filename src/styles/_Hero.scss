@@ -1,12 +1,16 @@
-.btn-success {
-    background-color: #4fd1d9 !important;
+.btn-transparent {
+    background-color: #C6713D !important;
+    color: #fff;
 
     &:hover {
         opacity: 0.75;
         transition: all 0.2s ease-in-out;
     }
+    p {
+        color: #FAEBD9 !important;
+    }
 }
 
 .text-success {
-    color:  #4fd1d9 !important;
+    color:  #e3c493 !important;
 }

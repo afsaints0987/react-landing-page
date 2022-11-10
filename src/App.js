@@ -1,25 +1,25 @@
+import {Routes, Route} from 'react-router-dom'
 import Navigation from './components/Navigation'
 import ParticlesConfig from './components/ParticlesConfig'
-import Hero from './components/Hero'
-import Divider from './components/Divider'
-import Divider2 from './components/Divider2'
-import Divider3 from './components/Divider3'
-import Services from './components/Services'
-import FreeTrial from './components/FreeTrial'
 import Footer from './components/Footer'
+import Home from './pages/Home'
+import Contact from './pages/Contact'
+import About from './pages/About'
+import {AnimatePresence} from 'framer-motion'
 
 function App() {
   return (
     <div className="App">
-      <ParticlesConfig/>
-      <Navigation/>
-      <Hero/>
-      <Divider/>
-      <Divider2/>
-      <Divider3/>
-      <Services/>
-      <FreeTrial/>
-      <Footer/>
+    <ParticlesConfig/>
+    <Navigation/>
+    <AnimatePresence>
+      <Routes>
+        <Route exact path="/" element={<Home/>}></Route>
+        <Route path="/about" element={<About/>}></Route>
+        <Route path="/contact" element={<Contact/>}></Route>
+      </Routes>
+    </AnimatePresence>
+    <Footer/>
     </div>
   );
 }

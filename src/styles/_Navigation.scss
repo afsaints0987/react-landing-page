@@ -4,8 +4,12 @@
 
 .nav-link {
     &:hover {
-        color: #4fd1d9 !important;
+        color: #e3c493 !important;
         font-weight: bold;
         transition: all 0.2s ease-in-out;
     }
+}
+
+#burger-menu {
+    color: #e3c493;
 }

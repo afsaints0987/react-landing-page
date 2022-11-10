@@ -1,6 +1,6 @@
 .service {
     h2 {
-        color: #4fd1d9 !important;
+        color: #FAEBD9 !important;
     }
 }
 
@@ -13,6 +13,15 @@
 }
 
 .swiper-container {
+    display: flex;
+    justify-content: center !important;
+    width: 100%;
+    
+    .swiper-button-prev, .swiper-button-next {
+        color: #333 !important;
+        font-weight: bolder;
+    }
+
     .swiper-slide {
         &:hover {
             color: #022658;
@@ -20,7 +29,10 @@
         }
     }
     .swiper-pagination {
-        bottom: -5px !important;
-
+        bottom: -12px !important;
+        height: 30px !important;
+        .swiper-pagination-bullet {
+            background: #fff;
+        }
     }
 }

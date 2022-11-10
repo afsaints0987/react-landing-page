@@ -1,26 +1,24 @@
-import * as FaIcons from 'react-icons/fa'
 import { serviceData } from '../data/data'
-import { Swiper, SwiperSlide, useSwiper} from 'swiper/react'
-import {Pagination} from 'swiper'
+import { Swiper, SwiperSlide} from 'swiper/react'
+import {Pagination, Navigation} from 'swiper'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 
 const Services = () => {
-    const swiper = useSwiper();
-
     return (
         <div className="container my-4 service">
-            <h2 className="text-center my-5 text-light">Our Web Design and Development Services</h2>
-            <Swiper modules={[Pagination]}
-            spaceBetween={20}
+            <h2 className="text-center my-5 text-light header-text">Our Web Design and Development Services</h2>
+            <Swiper modules={[Pagination, Navigation]}
+            spaceBetween={15}
                 slidesPerView={1}
                 breakpoints={{ 768: { width: 768, slidesPerView: 2 } }}
                 centeredSlides={true}
                 centeredSlidesBounds={true}
                 grabCursor={true}
                 pagination={{clickable: true}}
+                navigation
                 className="swiper-container"
             >
                 {serviceData.map(service => (

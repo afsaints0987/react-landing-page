@@ -6,7 +6,7 @@ const Divider2 = ({img}) => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
-                        <h2 style={{color: '#4fd1d9'}}>Are We The Right Partner to Design and Develop Your Website?</h2>
+                        <h2 className="header-text">Are We The Right Partner to Design and Develop Your Website?</h2>
                         <p>The Digital Webspace Solutions team is committed and passionate about building lifelong relationships with our clients, and offering great services.</p> 
                         <p>You're probably here because:</p> 
                         <ul>
