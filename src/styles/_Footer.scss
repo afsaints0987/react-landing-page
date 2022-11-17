@@ -1,8 +1,11 @@
-li, p {
-    font-size: 14px;
-}
 small {
-    color: #FAEBD9;
+    font-size: 12px;
+}
+
+.footer-nav {
+    li {
+        font-size: 12px;
+    }
 }
 h5, h6, .icon {
     color: #FAEBD9;
@@ -11,13 +14,12 @@ h5, h6, .icon {
 a {
     text-decoration: none;
     color: #fff;
+    font-size: 12px;
 
     &:hover {
-        color: #e3c493;
-        transition: color 0.2s ease-in-out;
+        font-weight: bold;
+        color: #e3c493 !important;
+        transition: all 0.2s ease-in-out;
     }
 }
 
-.footer-logo {
-    margin-left: 1rem;
-}
